@@ -6,6 +6,9 @@ on:
       - main
       - debug
 
+permissions:
+  contents: write
+
 jobs:
   deploy-doc:
     runs-on: ubuntu-latest
